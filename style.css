@@ -1,0 +1,49 @@
+:root {
+	--primary-color: #29335c;
+	--light-primary: #9ac4f8;
+	--lighest-color: #e9ebd5;
+	--secondary-color: #774936;
+	--light-secondary: #c08972;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.5rem 1rem;
+	background-color: var(--primary-color);
+	color: var(--lighest-color);
+}
+
+#search-container {
+	display: flex;
+	align-items: center;
+	width: 50%;
+}
+
+header > h2 > i {
+	margin-right: 0.5rem;
+}
+
+.movie-name-wrapper {
+	width: 65%;
+}
+
+.movie-year-wrapper {
+	width: 30%;
+}
+
+#search-button {
+	width: 5%;
+}
+
+.movie-year-wrapper > input {
+	max-width: 5rem;
+}
